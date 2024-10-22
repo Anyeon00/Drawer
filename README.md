@@ -1,6 +1,6 @@
 ## 1. 객체 지향적으로 다양한 도형 추가
 draw함수로 그릴 때, 필요한 x,y가 
-- 1개면 OnePointFiugre를 상속
+- 1개면 OnePointFigure를 상속
   ```java
   ex)
   g.drawOval(x1 - GAP, y1 - GAP, 2 * GAP, 2 * GAP);
