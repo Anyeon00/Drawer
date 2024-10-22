@@ -1,5 +1,8 @@
 ## 1. 객체 지향적으로 다양한 도형 추가
-draw함수로 그릴 때, 필요한 x,y가 
+
+  ![스크린샷 2024-10-22 145650](https://github.com/user-attachments/assets/40d6f4ad-af0f-41b6-99f5-3924b22ad240)
+
+  draw함수로 그릴 때, 필요한 x,y가 
 - 1개면 OnePointFigure를 상속
   ```java
   ex)
@@ -14,7 +17,6 @@ draw함수로 그릴 때, 필요한 x,y가
   int height = Math.abs(y2 - y1);
   g.drawRect(minX, minY, width, height);
   ```
-  ![스크린샷 2024-10-22 145650](https://github.com/user-attachments/assets/40d6f4ad-af0f-41b6-99f5-3924b22ad240)
 
 <br>
 
