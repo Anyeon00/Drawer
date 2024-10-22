@@ -300,7 +300,7 @@ public class DrawerView extends JPanel
             = {"Point", "Box", "Line", "Arrow", "Circle", "Triangle", "Pentagon",
             "Star", "TV", "Kite", "Text", "ImageObject"};
     public static ArrayList<String> figureTypeNames
-            = new ArrayList<String>();
+            = new ArrayList<>();
 
     // static initializer
     static {
@@ -333,7 +333,7 @@ public class DrawerView extends JPanel
     private int actionMode;
     private int whatToDraw;
     private Figure selectedFigure;
-    private ArrayList<Figure> figures = new ArrayList<Figure>();
+    private ArrayList<Figure> figures = new ArrayList<>();
 
     private int currentX;
     private int currentY;
@@ -391,7 +391,7 @@ public class DrawerView extends JPanel
 
         textEditor = new TextEditor(this);
 
-/* Icon�� ���Ϸ� ����� ���
+/* Icon
 		pointAction = new SelectAction("Point(P)",new ImageIcon("point.gif"),this,ID_POINT);
 		boxAction = new SelectAction("Box(B)",new ImageIcon("box.gif"),this,ID_BOX);
 		lineAction = new SelectAction("Line(L)",new ImageIcon("line.gif"),this,ID_LINE);
@@ -401,7 +401,7 @@ public class DrawerView extends JPanel
 		textAction = new SelectAction("Text(X)",new ImageIcon("text.gif"),this,ID_TEXT);
 */
 
-// Icon�� ���α׷����� ����� ���
+// Icon
         pointAction = new SelectAction("Point(P)", new FigureIcon(figureType[0]), this, ID_POINT);
         boxAction = new SelectAction("Box(B)", new FigureIcon(figureType[1]), this, ID_BOX);
         lineAction = new SelectAction("Line(L)", new FigureIcon(figureType[2]), this, ID_LINE);
@@ -650,7 +650,7 @@ public class DrawerView extends JPanel
             ois.close();
             fis.close();
 
-			/* �� �ڵ�� if ���� ���Ƽ� ���������� ������
+			/*
 			for(Figure ptr : figures) {
 				if (ptr instanceof Point)
 				{
@@ -675,8 +675,7 @@ public class DrawerView extends JPanel
 					ptr.setPopup(textPopup);
 				}
 			}
-			# �Ʒ�ó�� �ڵ��Ϸ��� popup ���۷����� �迭�� ������� �� 
-			�Ʒ��� ���� �ڵ��ϴ� ���� ���� */
+*/
 
             for (Figure ptr : figures) {
                 String figureTypeName = ptr.getClass().getName();

@@ -107,7 +107,6 @@ public class Arrow extends TwoPointFigure {
     }
 
     Figure copy() {
-        // upcasting: ����Ŭ���� -> ����Ŭ����
         Arrow newArrow = new Arrow(color, x1, y1, x2, y2);
         newArrow.popup = popup;
         newArrow.fillFlag = fillFlag;

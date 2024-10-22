@@ -98,7 +98,6 @@ public class Pentagon extends TwoPointFigure {
     }
 
     Figure copy() {
-        // upcasting: ����Ŭ���� -> ����Ŭ����
         Pentagon newPentagon = new Pentagon(color, x1, y1, x2, y2);
         newPentagon.popup = popup;
         newPentagon.fillFlag = fillFlag;

@@ -385,7 +385,7 @@ public class DrawerFrame extends JFrame {
     }
 }
 /*
-		JMenuItem printFile = new JMenuItem("����Ʈ(P)");
+		JMenuItem printFile = new JMenuItem("Print(P)");
 		fileMenu.add(printFile);
 		printFile.addActionListener((e) -> doPrint());
 

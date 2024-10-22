@@ -105,7 +105,6 @@ public class Star extends TwoPointFigure {
     }
 
     Figure copy() {
-        // upcasting: ����Ŭ���� -> ����Ŭ����
         Star newStar = new Star(color, x1, y1, x2, y2);
         newStar.popup = popup;
         newStar.fillFlag = fillFlag;

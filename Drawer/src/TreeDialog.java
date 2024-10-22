@@ -13,7 +13,7 @@ class TreeDialog extends JDialog {
         ArrayList<MyTreeNode> children;
         MyTreeNode(Object data) {
             userObject = data;
-            children = new ArrayList<MyTreeNode>();
+            children = new ArrayList<>();
         }
         public String toString() {
             return userObject.toString();
@@ -51,7 +51,7 @@ class TreeDialog extends JDialog {
         }
         public void constructTree() {
             root = new MyTreeNode("Figure");
-            ArrayList<String> names = new ArrayList<String>();
+            ArrayList<String> names = new ArrayList<>();
             int length = DrawerView.figureType.length;
             MyTreeNode nodes[] = new MyTreeNode[length];
             for(int i = 0; i < length; i++) {

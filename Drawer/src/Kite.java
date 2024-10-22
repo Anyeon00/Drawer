@@ -8,7 +8,7 @@ public class Kite extends Box {
     Line line2;
     Line line3;
     Line line4;
-    ArrayList<Figure> children = new ArrayList<Figure>();
+    ArrayList<Figure> children = new ArrayList<>();
 
     Kite(Color color) {
         super(color);

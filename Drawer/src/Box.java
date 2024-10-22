@@ -38,7 +38,6 @@ public class Box extends TwoPointFigure {
     }
 
     Figure copy() {
-        // upcasting: ����Ŭ���� -> ����Ŭ����
         Box newBox = new Box(color, x1, y1, x2, y2);
         newBox.popup = popup;
         newBox.fillFlag = fillFlag;

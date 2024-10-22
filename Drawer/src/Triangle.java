@@ -86,7 +86,6 @@ public class Triangle extends TwoPointFigure {
     }
 
     Figure copy() {
-        // upcasting: ����Ŭ���� -> ����Ŭ����
         Triangle newTriangle = new Triangle(color, x1, y1, x2, y2);
         newTriangle.popup = popup;
         newTriangle.fillFlag = fillFlag;
