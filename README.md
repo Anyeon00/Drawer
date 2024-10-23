@@ -34,3 +34,6 @@
 
 ### 다른 이름으로 저장하기
   ![스크린샷 2024-10-22 145831](https://github.com/user-attachments/assets/40acafb1-b9d2-4725-8c4e-9dcd17683a1c)
+
+  ![스크린샷 2024-10-24 002711](https://github.com/user-attachments/assets/31042aa8-e72d-4163-a2d7-1a24d99b4cb1)
+
